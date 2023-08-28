@@ -60,10 +60,10 @@ const FortuneSidebar = () => {
     },
   ];
   return (
-    <div className="w-full h-[100vh] font-semibold ">
+    <div className="h-[100vh] font-semibold">
       {sidebar.map((item, index) => {
         return (
-          <div key={index} className="mt-1 text-[17px]">
+          <div key={index} className="mt-1 text-[17px]  ">
             <NavLink
               to={item.path}
               className={({ isActive }) =>
